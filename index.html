@@ -817,7 +817,7 @@ table.matrix th.gericht, table.matrix td.gericht { text-align: left; min-width: 
 table.matrix th.al { width: 34px; text-align: center; padding: 4px 2px; vertical-align: top; }
 table.matrix th.al .b { display: block; font-size: 15px; }
 table.matrix th.al .n { display: block; font-size: 10.5px; font-weight: 400; line-height: 1.15;
-  writing-mode: vertical-rl; transform: rotate(180deg); margin: 4px auto 0; max-height: 120px; }
+  writing-mode: vertical-rl; transform: rotate(180deg); margin: 4px auto 0; white-space: nowrap; }
 table.matrix td.al { text-align: center; font-weight: 700; }
 table.matrix td.al.ja { background: #efe4d2; color: var(--text); }
 table.matrix td.zs, table.matrix th.zs { font-size: 13px; min-width: 150px; text-align: left; }
@@ -842,9 +842,9 @@ button.link:hover { text-decoration: underline; }
   table.matrix { font-size: 8.5pt; }
   table.matrix th, table.matrix td { border: 0.5pt solid #777; padding: 2.5pt 3pt; }
   table.matrix th.al { width: 9mm; }
-  table.matrix th.al .n { font-size: 7pt; max-height: 30mm; }
+  table.matrix th.al .n { font-size: 7pt; }
   table.matrix td.al.ja { background: #ddd; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  table.matrix th.gericht, table.matrix td.gericht { min-width: 0; width: 62mm; }
+  table.matrix th.gericht, table.matrix td.gericht { min-width: 0; width: 96mm; }
   table.matrix td.zs, table.matrix th.zs { font-size: 7.5pt; min-width: 0; width: 34mm; }
   table.matrix tr.gruppenzeile td { font-size: 8pt; }
 }
